@@ -1,0 +1,31 @@
+#grid-head {
+    text-align: center;
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.box {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.box img {
+    width: 400px;
+    height: 250px;
+}
+
+.box a {
+    text-decoration: none;
+}
+
+.a-format {
+    background-color: lightblue;
+    padding: 10px;
+}
